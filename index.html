@@ -1,209 +1,233 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-    <!-- Inicio Head -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Mario Cueto | Frontend Developer</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        
-        <!-- Plugin styles -->
-        <link href="css/animate.css" rel="stylesheet">
+<!-- Inicio Head -->
 
-        <!-- Theme styles -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+<head>
+    <meta charset="utf-8" />
+    <title>Mario Cueto | Frontend Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- Plugin styles -->
+    <link href="css/animate.css" rel="stylesheet">
 
-        <!-- Style Scroll Bar-->
-        <style>
-            /* Width*/
-            ::-webkit-scrollbar{
-                width: 10px;
-            }
-            /* Track*/
-            ::-webkit-scrollbar-track{
-                background: #f1f1f1;
-            }
-            /*Handle*/
-            ::-webkit-scrollbar-thumb{
-                background: rgb(207, 207, 207);
-                border-radius: 5px;
-            }  
-            /*Handle on hover*/
-            ::-webkit-scrollbar-thumb:hover{
-                background: rgb(189, 189, 189);
-            }          
-                    </style>
-    </head>
-    <!-- Fin Head -->
+    <!-- Theme styles -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
 
-    <!-- Inicio Body -->
-    <body id="body" data-spy="scroll" data-target=".header">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
-        <!-- Inicio Header -->
-        <header class="header navbar-fixed-top">
-            <!-- Inicio Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+    <!-- Style Scroll Bar-->
+    <style>
+        /* Width*/
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
 
-                        <!-- Inicio Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Mario Cueto Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Mario Cueto Logo">
-                            </a>
-                        </div>
-                        <!-- Fin Logo -->
-                    </div>
+        /* Track*/
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
 
-                    <!-- Colapse para toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Inicio</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre mí</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experiencia</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Trabajos</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Fin Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Fin Navbar -->
-        </header>
-        <!-- Fin Header -->
+        /*Handle*/
+        ::-webkit-scrollbar-thumb {
+            background: rgb(207, 207, 207);
+            border-radius: 5px;
+        }
 
-        <!-- Inicio Contenido Hero -->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/5.jpg">
+        /*Handle on hover*/
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(189, 189, 189);
+        }
+    </style>
+</head>
+<!-- Fin Head -->
+
+<!-- Inicio Body -->
+
+<body id="body" data-spy="scroll" data-target=".header">
+
+    <!-- Inicio Header -->
+    <header class="header navbar-fixed-top">
+        <!-- Inicio Navbar -->
+        <nav class="navbar" role="navigation">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="promo-block-divider">
-                            <h1 class="promo-block-title">Mario <br/> Cueto</h1>
-                            <p class="promo-block-text">Diseñador &amp; Desarrollador Front-end</p>
-                        </div>
-                        <ul class="list-inline">
-                            <li><a href="https://twitter.com/marioacj98" target="_blanck" class="social-icons"><i class="icon-social-twitter"></i></a></li>
-                            <li><a href="https://instagram.com/mariodevs" target="_blanck" class="social-icons"><i class="icon-social-instagram"></i></a></li>
-                            <li><a href="https://www.behance.net/mariocuetoj" target="_blanck" class="social-icons"><i class="icon-social-behance"></i></a></li>
-                            <li><a href="https://github.com/Marioacj98" target="_blanck" class="social-icons"><i class="icon-social-github"></i></a></li>
+                <!-- Mobile display -->
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+
+                    <!-- Inicio Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="#body">
+                            <img class="logo-img logo-img-main" src="img/logo.png" alt="Mario Cueto Logo">
+                            <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Mario Cueto Logo">
+                        </a>
+                    </div>
+                    <!-- Fin Logo -->
+                </div>
+
+                <!-- Colapse para toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
+                                    href="#body">Inicio</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
+                                    href="#about">Sobre mí</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
+                                    href="#experience">Experiencia</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
+                                    href="#work">Trabajos</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
+                                    href="#contact">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
+                <!-- Fin Navbar Collapse -->
+            </div>
+        </nav>
+        <!-- Fin Navbar -->
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Contenido Hero -->
+    <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="promo-block-divider">
+                        <h1 class="promo-block-title">Mario <br /> Cueto</h1>
+                        <p class="promo-block-text">Diseñador &amp; Desarrollador Front-end</p>
+                    </div>
+                    <ul class="list-inline">
+                        <li><a href="https://twitter.com/marioacj98" target="_blanck" class="social-icons"><i
+                                    class="icon-social-twitter"></i></a></li>
+                        <li><a href="https://instagram.com/mariodevs" target="_blanck" class="social-icons"><i
+                                    class="icon-social-instagram"></i></a></li>
+                        <li><a href="https://www.behance.net/mariocuetoj" target="_blanck" class="social-icons"><i
+                                    class="icon-social-behance"></i></a></li>
+                        <li><a href="https://github.com/Marioacj98" target="_blanck" class="social-icons"><i
+                                    class="icon-social-github"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <!-- Fin Contenido Hero -->
+    </div>
+    <!-- Fin Contenido Hero -->
 
-        <!--Contenido sección Sobre mí-->
-        <!-- Sobre mí -->
-        <div id="about">
+    <!--Contenido sección Sobre mí-->
+    <!-- Sobre mí -->
+    <div id="about">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Sobre mí</h2>
+                        <p>Conóceme un poco más</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="margin-b-60">
+                        <p>Soy Mario Cueto, un ingeniero de sistemas enfocado en el diseño y desarrollo web. Me
+                            caracterizo por ser responsable y adaptable a las necesidades y deseos de mis clientes en
+                            cuanto a sus proyectos. </p>
+                        <p>En cada proyecto me aseguro de tener una comunicación abierta con mis clientes con el fin de
+                            plasmar sus sueños en su nuevo sitio web de la forma más conveniente. La responsabilidad, la
+                            creatividad y el compromiso con la excelencia son las bases de mi trabajo y del servicio
+                            integral que puedo brindar.</p>
+                    </div>
+
+                    <!-- Inicio Barra de progreso -->
+                    <div class="progress-box">
+                        <h5>PHP/Laravel<span class="color-heading pull-right">60%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>HTML/CSS <span class="color-heading pull-right">90%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>JavaSript <span class="color-heading pull-right">50%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>Diseño <span class="color-heading pull-right">70%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                        </div>
+                    </div>
+                    <!-- Fin Barra de progreso -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Sobre mí -->
+
+    <!-- Inicio Experiencia -->
+    <div id="experience">
+        <div class="bg-color-sky-light" data-auto-height="true">
             <div class="container content-lg">
                 <div class="row">
                     <div class="col-sm-3 sm-margin-b-30">
                         <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Sobre mí</h2>
-                            <p>Conóceme un poco más</p>
+                            <h2 class="margin-b-0">Experiencia</h2>
+                            <p>Descubre mis habilidades</p>
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
-                        <div class="margin-b-60">
-                            <p>Soy Mario Cueto, un ingeniero de sistemas enfocado en el diseño y desarrollo web. Me caracterizo por ser responsable y adaptable a las necesidades y deseos de mis clientes en cuanto a sus proyectos. </p>
-                            <p>En cada proyecto me aseguro de tener una comunicación abierta con mis clientes con el fin de plasmar sus sueños en su nuevo sitio web de la forma más conveniente. La responsabilidad, la creatividad y el compromiso con la excelencia son las bases de mi trabajo y del servicio integral que puedo brindar.</p>
-                        </div>
-
-                        <!-- Inicio Barra de progreso -->
-                        <div class="progress-box">
-                            <h5>Resposive Design <span class="color-heading pull-right">85%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>HTML/CSS <span class="color-heading pull-right">90%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>JavaSript <span class="color-heading pull-right">50%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
-                            </div>
-                        </div>
-                        <div class="progress-box">
-                            <h5>Diseño <span class="color-heading pull-right">70%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
-                            </div>
-                        </div>
-                        <!-- Fin Barra de progreso -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fin Sobre mí -->
-
-        <!-- Inicio Experiencia -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Experiencia</h2>
-                                <p>Descubre mis habilidades</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-pin"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Programación esencial</h3>
-                                            <p class="margin-b-5">Amplio conocimiento de lenguajes bases como HTML, CSS, Javascript</p>
-                                        </div>
+                        <div class="row row-space-2 margin-b-4">
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-pin"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Frontend</h3>
+                                        <p class="margin-b-5">Buen uso de todas las tecnologías de diseño y
+                                            desarrollo que se encargan de interactuar de forma eficaz con el usuario
+                                            final</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-pencil"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Diseño Web/Marca</h3>
-                                            <p class="margin-b-5">Soluciones visuales agradables a los usuarios con diseños en 
-                                                Photoshop, Figma, entre otros
-                                            </p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-pencil"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Diseño web y
+                                            marca</h3>
+                                        <p class="margin-b-5">Brindo a los usuarios una experiencia adecuada, suave y
+                                            atractiva a su vista a la hora de
+                                            moverse por su página web
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="service" data-height="height">
-                                        <div class="service-element">
-                                            <i class="service-icon icon-badge"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Front-end</h3>
-                                            <p class="margin-b-5">Convierto la web en arte con Flexbox y Grid, Javascript en el navegador, entre otros</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-badge"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Administración web</h3>
+                                        <p class="margin-b-5">Me encargo de planificar y organizar el
+                                            desarrollo técnico de la web para que la información sea segura y esté
+                                            actualizada</p>
                                     </div>
                                 </div>
                             </div>
@@ -212,291 +236,365 @@
                 </div>
             </div>
         </div>
-        <!-- Fin Experiencia -->
+    </div>
+    <!-- Fin Experiencia -->
 
-        <!-- Inicio Trabajos -->
-        <div id="work">
+    <!-- Inicio Trabajos -->
+    <div id="work">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Trabajos</h2>
+                        <p>Construyendo realidades</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <!-- Inicio Grid -->
+                    <div class="masonry-grid row row-space-2">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                            <!-- Inicio Trabajos Grid -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/6000x3700/Mockup Iphone X.png"
+                                        alt="Mockup Iphone X">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Diseño de marca</h3>
+                                            <span>MACH Company</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>El diseño de marca es muy importante para crear una identidad
+                                                        corporativa y
+                                                        lograr que tus potenciales clientes te recuerden por ello. Por
+                                                        lo que se debe transmitir a
+                                                        través de estos diseños de manera fácil la respuesta a: ¿Qué
+                                                        productos/servicios me están
+                                                        ofreciendo?</p>
+                                                    <p>MACH Company es una empresa dedicada al diseño y desarrollo web
+                                                        que buscaba un
+                                                        servicio de branding y para esto se hicieron diseños de este
+                                                        estilo que comuniquen la labor
+                                                        principal de la organización.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Branding,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Social Media</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Líder del proyecto: </strong>Mario
+                                                        Cueto</p>
+                                                    <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
+                                                    <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin Trabajos Grid -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                            <!-- Inicio Trabajos Grid -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/1080x1080/Barra Media.png"
+                                        alt="Design Barra Media">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Diseño de Social Media</h3>
+                                            <span>MACH Company</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>El diseño de social media es fundamental ya que son un escaparate
+                                                        gratuito en el que puedes hacer llegar diferentes mensajes a tu
+                                                        público objetivo. Es una opción perfecta para generar notoriedad
+                                                        de tu marca.</p>
+                                                    <p>MACH Company es una empresa dedicada al diseño y desarrollo web
+                                                        que buscaba un servicio de Social Media y para esto se hicieron
+                                                        diseños de este estilo que capten la atención de los clientes
+                                                        potenciales enfocándolos en la labor principal de la
+                                                        organización.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Branding,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Social Media,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Community Manager</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario
+                                                        Cueto</p>
+                                                    <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
+                                                    <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin Trabajos Grid -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <!-- Inicio Trabajos Grid -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive"
+                                        src="img/2048x2048/Website View-Gramática.png" alt="Landing Page Gramatica">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Diseño y Desarrollo Web</h3>
+                                            <span>MACH Company</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>El diseño web es de mucho valor pues no solo debe tener un
+                                                        aspecto agradable sino también transmitir los valores de la
+                                                        marca y seguir la línea de comunicación corporativa. Por otro
+                                                        lado, el desarrollo web con buenas prácticas de codificación y
+                                                        con varias etapas de entrega es clave para llevar un excelente
+                                                        proceso y culminación de los proyectos.</p>
+                                                    <p>MACH Company es una empresa dedicada al diseño y desarrollo web
+                                                        que buscaba un servicio de diseño/desarrollo web y para esto se
+                                                        realizaron diseños/desarrollos de este estilo que agrade a los
+                                                        usuarios a los que vaya dirigido este tipo de servicios.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Branding,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario
+                                                        Cueto</p>
+                                                    <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
+                                                    <p class="margin-b-5"><strong>Desarrollador:</strong> Mario Cueto
+                                                    </p>
+                                                    <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin Trabajos Grid -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <!-- Inicio Trabajos Grid -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/2048x2048/Website View-Academia.png"
+                                        alt="Landing Page Academia">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Diseño y Desarrollo Web</h3>
+                                            <span>MACH Company</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>El diseño web es de mucho valor pues no solo debe tener un
+                                                        aspecto agradable sino también transmitir los valores de la
+                                                        marca y seguir la línea de comunicación corporativa. Por otro
+                                                        lado, el desarrollo web con buenas prácticas de codificación y
+                                                        con varias etapas de entrega es clave para llevar un excelente
+                                                        proceso y culminación de los proyectos.</p>
+                                                    <p>MACH Company es una empresa dedicada al diseño y desarrollo web
+                                                        que buscaba un servicio de diseño/desarrollo web y para esto se
+                                                        realizaron diseños/desarrollos de este estilo que agrade a los
+                                                        usuarios a los que vaya dirigido este tipo de servicios.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Branding,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Development</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario
+                                                        Cueto</p>
+                                                    <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
+                                                    <p class="margin-b-5"><strong>Desarrollador:</strong> Mario Cueto
+                                                    </p>
+                                                    <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin Trabajos Grid -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                            <!-- Inicio Trabajos Grid -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/1080x1080/Círculo Medio.png"
+                                        alt="Design Circulo Medio">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Diseño de Social Media</h3>
+                                            <span>MACH Company</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>El diseño de social media es fundamental ya que son un escaparate
+                                                        gratuito en el que puedes hacer llegar diferentes mensajes a tu
+                                                        público objetivo. Es una opción perfecta para generar notoriedad
+                                                        de tu marca.</p>
+                                                    <p>MACH Company es una empresa dedicada al diseño y desarrollo web
+                                                        que buscaba un servicio de Social Media y para esto se hicieron
+                                                        diseños de este estilo que capten la atención de los clientes
+                                                        potenciales enfocándolos en la labor principal de la
+                                                        organización.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Branding,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Social Media,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link"
+                                                                href="#work">Community Manager</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario
+                                                        Cueto</p>
+                                                    <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
+                                                    <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin Trabajos Grid -->
+                        </div>
+                    </div>
+                    <!-- Fin Grid -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Trabajos -->
+
+    <!-- Inicio Contacto -->
+    <div id="contact">
+        <div class="bg-color-sky-light">
             <div class="container content-lg">
                 <div class="row">
                     <div class="col-sm-3 sm-margin-b-30">
                         <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">Trabajos</h2>
-                            <p>Construyendo realidades</p>
+                            <h2 class="margin-b-0">Contáctame</h2>
+                            <p>Trabajemos juntos</p>
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Inicio Grid -->
-                        <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                                <!-- Inicio Trabajos Grid -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/6000x3700/Mockup Iphone X.png" alt="Mockup Iphone X">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Diseño de marca</h3>
-                                                <span>MACH Company</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>El diseño de marca es muy importante para crear una identidad corporativa y
-                                                            lograr que tus potenciales clientes te recuerden por ello. Por lo que se debe transmitir a
-                                                            través de estos diseños de manera fácil la respuesta a: ¿Qué productos/servicios me están
-                                                            ofreciendo?</p>
-                                                        <p>MACH Company es una empresa dedicada al diseño y desarrollo web que buscaba un
-                                                            servicio de branding y para esto se hicieron diseños de este estilo que comuniquen la labor
-                                                            principal de la organización.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Branding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Social Media</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Líder del proyecto: </strong>Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Fin Trabajos Grid -->
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>Ubicación</h5>
+                                <a href="https://www.google.com/maps/d/embed?mid=1D0SdQ0ptO4GByAuyN9qfBbtO8vQ"
+                                    target="_blanck">Barranquilla, Colombia</a>
                             </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Inicio Trabajos Grid -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/1080x1080/Barra Media.png" alt="Design Barra Media">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Diseño de Social Media</h3>
-                                                <span>MACH Company</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>El diseño de social media es fundamental ya que son un escaparate gratuito en el que puedes hacer llegar diferentes mensajes a tu público objetivo. Es una opción perfecta para generar notoriedad de tu marca.</p>
-                                                        <p>MACH Company es una empresa dedicada al diseño y desarrollo web que buscaba un servicio de Social Media y para esto se hicieron diseños de este estilo que capten la atención de los clientes potenciales enfocándolos en la labor principal de la organización.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Branding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Social Media,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Community Manager</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Fin Trabajos Grid -->
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>Teléfono</h5>
+                                <a href="https://wa.me/573042097872" target="_blanck">+57 304-209-7872</a>
                             </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Inicio Trabajos Grid -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/2048x2048/Website View-Gramática.png" alt="Landing Page Gramatica">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Diseño y Desarrollo Web</h3>
-                                                <span>MACH Company</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>El diseño web es de mucho valor pues no solo debe tener un aspecto agradable sino también transmitir los valores de la marca y seguir la línea de comunicación corporativa. Por otro lado, el desarrollo web con buenas prácticas de codificación y con varias etapas de entrega es clave para llevar un excelente proceso y culminación de los proyectos.</p>
-                                                        <p>MACH Company es una empresa dedicada al diseño y desarrollo web que buscaba un servicio de diseño/desarrollo web y para esto se realizaron diseños/desarrollos de este estilo que agrade a los usuarios a los que vaya dirigido este tipo de servicios.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Branding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Development</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Desarrollador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Fin Trabajos Grid -->
+                            <div class="col-md-3 col-xs-6">
+                                <h5>Email</h5>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioacj98@gmail.com"
+                                    target="_blanck">marioacj98@gmail.com</a>
                             </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Inicio Trabajos Grid -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/2048x2048/Website View-Academia.png" alt="Landing Page Academia">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Diseño y Desarrollo Web</h3>
-                                                <span>MACH Company</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>El diseño web es de mucho valor pues no solo debe tener un aspecto agradable sino también transmitir los valores de la marca y seguir la línea de comunicación corporativa. Por otro lado, el desarrollo web con buenas prácticas de codificación y con varias etapas de entrega es clave para llevar un excelente proceso y culminación de los proyectos.</p>
-                                                        <p>MACH Company es una empresa dedicada al diseño y desarrollo web que buscaba un servicio de diseño/desarrollo web y para esto se realizaron diseños/desarrollos de este estilo que agrade a los usuarios a los que vaya dirigido este tipo de servicios.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Branding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Development</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Desarrollador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Fin Trabajos Grid -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                                <!-- Inicio Trabajos Grid -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/1080x1080/Círculo Medio.png" alt="Design Circulo Medio">
-                                    </div>
-                                    <div class="work-popup-overlay">
-                                        <div class="work-popup-content">
-                                            <a href="javascript:void(0);" class="work-popup-close">Cerrar</a>
-                                            <div class="margin-b-30">
-                                                <h3 class="margin-b-5">Diseño de Social Media</h3>
-                                                <span>MACH Company</span>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p>El diseño de social media es fundamental ya que son un escaparate gratuito en el que puedes hacer llegar diferentes mensajes a tu público objetivo. Es una opción perfecta para generar notoriedad de tu marca.</p>
-                                                        <p>MACH Company es una empresa dedicada al diseño y desarrollo web que buscaba un servicio de Social Media y para esto se hicieron diseños de este estilo que capten la atención de los clientes potenciales enfocándolos en la labor principal de la organización.</p>
-                                                        <ul class="list-inline work-popup-tag">
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Design,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Branding,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Social Media,</a></li>
-                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#work">Community Manager</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="margin-t-10 sm-margin-t-0">
-                                                        <p class="margin-b-5"><strong>Líder del proyecto:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Diseñador:</strong> Mario Cueto</p>
-                                                        <p class="margin-b-5"><strong>Cliente:</strong> Carlos De La Ossa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Fin Trabajos Grid -->
-                            </div>
-                        </div>
-                        <!-- Fin Grid -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fin Trabajos -->
-            
-        <!-- Inicio Contacto -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Contáctame</h2>
-                                <p>Trabajemos juntos</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Ubicación</h5>
-                                    <a href="https://www.google.com/maps/d/embed?mid=1D0SdQ0ptO4GByAuyN9qfBbtO8vQ" target="_blanck">Barranquilla, Colombia</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>Teléfono</h5>
-                                    <a href="https://wa.me/573042097872" target="_blanck">+57 304-209-7872</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Email</h5>
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioacj98@gmail.com" target="_blanck">marioacj98@gmail.com</a>
-                                </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <h5>Web</h5>
-                                    <a href="https://marioacj98.github.io/mariocuetoj/" target="_blanck">marioacj98.github.io/mariocuetoj/</a>
-                                </div>
+                            <div class="col-md-3 col-xs-6">
+                                <h5>Web</h5>
+                                <a href="https://marioacj98.github.io/mariocuetoj/"
+                                    target="_blanck">github.io/mariocuetoj</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Fin Contacto -->
-        
-        <!-- Javascript Implementado -->
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">&#9650;</a>
+    </div>
+    <!-- Fin Contacto -->
 
-        <!-- Core Plugins -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Javascript Implementado -->
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">&#9650;</a>
 
-        <!-- Page Level Plugins -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <!-- Core Plugins -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
-        <!-- Page Level Scripts -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
+    <!-- Page Level Plugins -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
-    </body>
-    <!-- Fin Body -->
+    <!-- Page Level Scripts -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+</body>
+<!-- Fin Body -->
+
 </html>
