@@ -995,7 +995,7 @@ fieldset[disabled] .btn-theme {
 
 .row-space-2 > [class*="col-"] {
   padding-left: 2px;
-  padding-right: 2px;
+  padding-right: 6px;
 }
 
 /*--------------------------------------------------
